@@ -10,7 +10,7 @@ def make_avatar():
 
     now = datetime.datetime.now()
 
-    #minute return 4 but needed is 04, so i add zero manually
+    #for example we have got 19:04 minute return 4 but needed is 04, so i add zero manually
     if(now.minute < 10):
         time = str(now.hour) + " : 0" + str(now.minute)
     else:
